@@ -17,7 +17,7 @@
       "status": "pass"
     },
     {
-      "HW": "B100",
+      "HW": "B200",
       "test_type": "language",
       "image": "quay.io/aipcc/rhaiis/cuda‑ubi9:3.2.3‑1759900171",
       "vLLM_version": "0.11.1",
