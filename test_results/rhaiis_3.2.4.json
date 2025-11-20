@@ -1,0 +1,865 @@
+{
+  "smoke": [
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/phi-4",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "google/gemma-3-12b-it",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/Phi-3-medium-4k-instruct",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "meta-llama/Llama-3.1-8B-Instruct",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/granite-3.1-8b-instruct-quantized.w4a16",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/Phi-4-reasoning",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Qwen3-8B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/SmolLM3-3B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "ibm-granite/granite-4.0-micro",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "openai/gpt-oss-20b",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "BAAI/bge-reranker-v2-m3",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "nomic-ai/nomic-embed-text-v1.5",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "sentence-transformers/all-MiniLM-L6-v2",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "Qwen/Qwen3-Embedding-8B",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "openai/gpt-oss-120b",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/NVIDIA-Nemotron-Nano-9B-v2-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "ibm-granite/granite-3.3-8b-instruct",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "distil-whisper/distil-large-v3",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/whisper-large-v3-turbo-quantized.w4a16",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Qwen2.5-VL-7B-Instruct-FP8-Dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Llama-3.3-70B-Instruct-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/phi-4",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "openai/whisper-large-v3",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "BAAI/bge-reranker-v2-m3",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "nomic-ai/nomic-embed-text-v1.5",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "sentence-transformers/all-MiniLM-L6-v2",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "Qwen/Qwen3-Embedding-8B",
+      "status": "pass"
+    },
+    {
+      "HW": "h100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Qwen3-8B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "gh200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "openai/gpt-oss-120b",
+      "status": "pass"
+    },
+    {
+      "HW": "gh200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/gemma-3-12b-it-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "gh200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "gh200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "Qwen/Qwen3-Coder-30B-A3B-Instruct-FP8",
+      "status": "pass"
+    },
+    {
+      "HW": "gh200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Voxtral-Mini-3B-2507-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "gh200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "distil-whisper/distil-large-v3",
+      "status": "pass"
+    },
+    {
+      "HW": "gb200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "openai/whisper-large-v3",
+      "status": "pass"
+    },
+    {
+      "HW": "gb200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/whisper-large-v3-turbo-quantized.w4a16",
+      "status": "pass"
+    },
+    {
+      "HW": "gb200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "distil-whisper/distil-large-v3",
+      "status": "pass"
+    },
+    {
+      "HW": "gb200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "openai/gpt-oss-20b",
+      "status": "pass"
+    },
+    {
+      "HW": "gb200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Llama-3.3-70B-Instruct-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "gb200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/phi-4",
+      "status": "pass"
+    },
+    {
+      "HW": "b200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "b200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "Qwen/Qwen3-Coder-480B-A35B-Instruct-FP8",
+      "status": "pass"
+    },
+    {
+      "HW": "b200",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Kimi-K2-Instruct-quantized.w4a16",
+      "status": "pass"
+    },
+    {
+      "HW": "blackwell_rtx_pro_6000",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "openai/gpt-oss-120b",
+      "status": "pass"
+    },
+    {
+      "HW": "blackwell_rtx_pro_6000",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/whisper-large-v3-turbo-quantized.w4a16",
+      "status": "pass"
+    },
+    {
+      "HW": "blackwell_rtx_pro_6000",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "blackwell_rtx_pro_6000",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Llama-3.3-70B-Instruct-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "L40",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Qwen2.5-VL-7B-Instruct-FP8-Dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "L40",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "distil-whisper/distil-large-v3",
+      "status": "pass"
+    },
+    {
+      "HW": "L40",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "openai/gpt-oss-20b",
+      "status": "pass"
+    },
+    {
+      "HW": "L40",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/phi-4",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/Phi-3-medium-4k-instruct",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "ibm-granite/granite-4.0-h-small",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "ibm-granite/granite-4.0-micro",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/SmolLM3-3B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Qwen3-8B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/phi-4",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Llama-3.3-70B-Instruct-FP8-dynamic",
+      "status": "pass"
+    }
+  ],
+  "accuracy": [
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/phi-4",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "google/gemma-3-12b-it",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/Phi-3-medium-4k-instruct",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "meta-llama/Llama-3.1-8B-Instruct",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/granite-3.1-8b-instruct-quantized.w4a16",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/Phi-4-reasoning",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Qwen3-8B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/SmolLM3-3B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "ibm-granite/granite-4.0-micro",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "openai/gpt-oss-20b",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/Phi-3-medium-4k-instruct",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "ibm-granite/granite-4.0-h-small",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "ibm-granite/granite-4.0-micro",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/SmolLM3-3B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Qwen3-8B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/phi-4",
+      "status": "pass"
+    }
+  ],
+  "performance": [
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/phi-4",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "google/gemma-3-12b-it",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/Phi-3-medium-4k-instruct",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "meta-llama/Llama-3.1-8B-Instruct",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/granite-3.1-8b-instruct-quantized.w4a16",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/Phi-4-reasoning",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Qwen3-8B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/SmolLM3-3B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Llama-4-Scout-17B-16E-Instruct-quantized.w4a16",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "ibm-granite/granite-4.0-micro",
+      "status": "pass"
+    },
+    {
+      "HW": "a100",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "openai/gpt-oss-20b",
+      "status": "pass"
+    },
+    {
+      "HW": "L40",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "openai/gpt-oss-20b",
+      "status": "pass"
+    },
+    {
+      "HW": "L40",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/phi-4",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/Phi-3-medium-4k-instruct",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "mistralai/Mistral-Small-3.1-24B-Instruct-2503",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "ibm-granite/granite-4.0-h-small",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "ibm-granite/granite-4.0-micro",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Meta-Llama-3.1-8B-Instruct-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "deepseek-ai/DeepSeek-R1-Distill-Qwen-32B",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/SmolLM3-3B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "RedHatAI/Qwen3-8B-FP8-dynamic",
+      "status": "pass"
+    },
+    {
+      "HW": "mi300x",
+      "test_type": "language",
+      "image": "quay.io/aipcc/rhaiis/rocm-ubi9:3.2.4-1762319842",
+      "vLLM_version": "0.11.1",
+      "modelname": "microsoft/phi-4",
+      "status": "pass"
+    }
+  ]
+}
+
