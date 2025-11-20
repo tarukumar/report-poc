@@ -305,54 +305,6 @@
       "status": "pass"
     },
     {
-      "HW": "gb200",
-      "test_type": "language",
-      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
-      "vLLM_version": "0.11.1",
-      "modelname": "openai/whisper-large-v3",
-      "status": "pass"
-    },
-    {
-      "HW": "gb200",
-      "test_type": "language",
-      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
-      "vLLM_version": "0.11.1",
-      "modelname": "RedHatAI/whisper-large-v3-turbo-quantized.w4a16",
-      "status": "pass"
-    },
-    {
-      "HW": "gb200",
-      "test_type": "language",
-      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
-      "vLLM_version": "0.11.1",
-      "modelname": "distil-whisper/distil-large-v3",
-      "status": "pass"
-    },
-    {
-      "HW": "gb200",
-      "test_type": "language",
-      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
-      "vLLM_version": "0.11.1",
-      "modelname": "openai/gpt-oss-20b",
-      "status": "pass"
-    },
-    {
-      "HW": "gb200",
-      "test_type": "language",
-      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
-      "vLLM_version": "0.11.1",
-      "modelname": "RedHatAI/Llama-3.3-70B-Instruct-FP8-dynamic",
-      "status": "pass"
-    },
-    {
-      "HW": "gb200",
-      "test_type": "language",
-      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
-      "vLLM_version": "0.11.1",
-      "modelname": "microsoft/phi-4",
-      "status": "pass"
-    },
-    {
       "HW": "b200",
       "test_type": "language",
       "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
@@ -374,38 +326,6 @@
       "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
       "vLLM_version": "0.11.1",
       "modelname": "RedHatAI/Kimi-K2-Instruct-quantized.w4a16",
-      "status": "pass"
-    },
-    {
-      "HW": "blackwell_rtx_pro_6000",
-      "test_type": "language",
-      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
-      "vLLM_version": "0.11.1",
-      "modelname": "openai/gpt-oss-120b",
-      "status": "pass"
-    },
-    {
-      "HW": "blackwell_rtx_pro_6000",
-      "test_type": "language",
-      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
-      "vLLM_version": "0.11.1",
-      "modelname": "RedHatAI/whisper-large-v3-turbo-quantized.w4a16",
-      "status": "pass"
-    },
-    {
-      "HW": "blackwell_rtx_pro_6000",
-      "test_type": "language",
-      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
-      "vLLM_version": "0.11.1",
-      "modelname": "RedHatAI/Mistral-Small-3.1-24B-Instruct-2503-FP8-dynamic",
-      "status": "pass"
-    },
-    {
-      "HW": "blackwell_rtx_pro_6000",
-      "test_type": "language",
-      "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
-      "vLLM_version": "0.11.1",
-      "modelname": "RedHatAI/Llama-3.3-70B-Instruct-FP8-dynamic",
       "status": "pass"
     },
     {
