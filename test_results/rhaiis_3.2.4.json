@@ -90,7 +90,7 @@
     },
     {
       "HW": "a100",
-      "test_type": "language",
+      "test_type": "reranking",
       "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
       "vLLM_version": "0.11.1",
       "modelname": "BAAI/bge-reranker-v2-m3",
@@ -98,7 +98,7 @@
     },
     {
       "HW": "a100",
-      "test_type": "language",
+      "test_type": "embedding",
       "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
       "vLLM_version": "0.11.1",
       "modelname": "nomic-ai/nomic-embed-text-v1.5",
@@ -106,7 +106,7 @@
     },
     {
       "HW": "a100",
-      "test_type": "language",
+      "test_type": "embedding",
       "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
       "vLLM_version": "0.11.1",
       "modelname": "sentence-transformers/all-MiniLM-L6-v2",
@@ -114,7 +114,7 @@
     },
     {
       "HW": "a100",
-      "test_type": "language",
+      "test_type": "embedding",
       "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
       "vLLM_version": "0.11.1",
       "modelname": "Qwen/Qwen3-Embedding-8B",
@@ -218,7 +218,7 @@
     },
     {
       "HW": "h100",
-      "test_type": "language",
+      "test_type": "reranking",
       "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
       "vLLM_version": "0.11.1",
       "modelname": "BAAI/bge-reranker-v2-m3",
@@ -226,7 +226,7 @@
     },
     {
       "HW": "h100",
-      "test_type": "language",
+      "test_type": "embedding",
       "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
       "vLLM_version": "0.11.1",
       "modelname": "nomic-ai/nomic-embed-text-v1.5",
@@ -234,7 +234,7 @@
     },
     {
       "HW": "h100",
-      "test_type": "language",
+      "test_type": "embedding",
       "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
       "vLLM_version": "0.11.1",
       "modelname": "sentence-transformers/all-MiniLM-L6-v2",
@@ -242,7 +242,7 @@
     },
     {
       "HW": "h100",
-      "test_type": "language",
+      "test_type": "embedding",
       "image": "quay.io/aipcc/rhaiis/cuda-ubi9:3.2.4-1762222801",
       "vLLM_version": "0.11.1",
       "modelname": "Qwen/Qwen3-Embedding-8B",
